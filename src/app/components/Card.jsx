@@ -108,7 +108,7 @@ const Card = () => {
       {
         "image": "https://3.bp.blogspot.com/-eDeTttUjHxI/WVSvmI-552I/AAAAAAAAAKw/0T3LN6jABKMyEkTRUUQMFxpe6PLvtcMMwCPcBGAYYCw/s1600/001-culture-clash-matthew-gianoulis.jpg",
         "category": "Ethnic",
-        "title": "My face not my heart",
+        "title": "nishu",
         "description": "Description Product tell me how to change playlist height size like 600px in html5 player.",
         "price": "Rp500.000"
       },
@@ -134,7 +134,7 @@ const Card = () => {
         "price": "Rp500.000"
       }
     ];
-    
+
     // Simulating an API call with setTimeout
     setTimeout(() => {
       setProducts(jsonData);
