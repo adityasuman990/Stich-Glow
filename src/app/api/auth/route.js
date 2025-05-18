@@ -1,5 +1,5 @@
 import { getAuth } from "@clerk/nextjs/server";
-import connectDB from "@/lib/mongodb";
+import connectDB from "@/lib/mongodb.cjs";
 import User from "@/models/User";
 
 export async function POST(req) {

@@ -6,6 +6,7 @@ import Navbar  from "./components/Navbar";
 import Card from "./components/Card";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
+import Page from "./pages/product";
 
 export default function Home() {
   const { isSignedIn } = useUser();
@@ -19,6 +20,7 @@ export default function Home() {
       <Main/>
       <Card/>
       <Footer/>
+      <Page/>
 
 
       {/* <h1>Welcome to Next.js + Clerk + MongoDB</h1> */}
