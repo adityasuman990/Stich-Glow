@@ -6,21 +6,28 @@ import Navbar  from "./components/Navbar";
 import Card from "./components/Card";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
-import Page from "./pages/product";
+// import Page from "./pages/products/[id]/page";
+import Map from "./components/GoogleLocation";
+import Services from "./components/Services";
+import Loader from './components/Loader';
 
 export default function Home() {
-  const { isSignedIn } = useUser();
+  // const { isSignedIn } = useUser();
 
   return (
     <>
-    
+
+
+    <Loader />
       <Top/>
       <Navbar/>
       
       <Main/>
       <Card/>
+      <Services/>
+      <Map/>
       <Footer/>
-      <Page/>
+      {/* <Page/> */}
 
 
       {/* <h1>Welcome to Next.js + Clerk + MongoDB</h1> */}
