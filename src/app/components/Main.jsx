@@ -786,7 +786,7 @@ export default function BeautySalon() {
           className="hero-video"
           preload="auto"
         >
-          <source src="/videos/videoplayback.mp4" type="video/mp4" />
+          <source src="/videos/stich&glow.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="overlay"></div>
